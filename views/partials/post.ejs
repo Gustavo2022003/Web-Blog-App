@@ -1,0 +1,23 @@
+<div class="post">
+
+    <div class="post-header">
+        <p class="username_display"><%= post.username %></p>
+        <div class="post-icons">
+
+            <form action="/editpost" method="get">
+                <input type="hidden" name="postID" id="postID" value="<%= post.id %>">
+                <button id="button-icon-edit" class="button-icon-edit" type="submit"></button>
+            </form>
+
+            <form action="/confirm" method="post">
+                <input type="hidden" name="postID" id="postID" value="<%= post.id %>">
+                <button type="submit" class="button-icon-trash"></button>
+            </form>
+
+        </div>
+    </div>
+
+    <textarea readonly class="post-message" name="postMessage" id="postMessage" cols="30" rows="10"><%= post.message %></textarea>
+
+    <p class="timestamp"><%= post.hour %> : <%= post.minute %></p>
+</div>

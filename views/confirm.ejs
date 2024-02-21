@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs"); %>
+
+    <div class="container-center">
+
+        <div class="post">
+            <p class="confirmation-text">Are you sure you want to <span class="red">delete</span> this post?</p>
+            
+            <div class="confirm-buttons">
+
+                <form action="/cancel" method="post">
+                    <button type="submit" class="cancel">No</button>
+                </form>
+    
+                <form action="/deletepost" method="post">
+                    <input type="hidden" name="postID" id="postID" value="<%= id %>">
+                    <button type="submit" class="confirm">Yes</button>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+<%- include("partials/footer.ejs"); %>

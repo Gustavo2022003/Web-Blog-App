@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs"); %>
+
+    <div class="container-center">
+        <div class="post">
+            <div class="post-header">
+                <p class="username_display"><%= username %></p>
+            </div>
+
+            <form action="/save" method="post">
+                <input type="hidden" name="id" id="id" value="<%= id %>">
+                <textarea required maxlength="372" class="post-message edit" name="postMessage" id="postMessage" cols="30" rows="10"><%= message %></textarea>
+                <button type="submit" class="save-btn">Save</button>
+            </form>
+
+            <form action="/cancel" method="post">
+                <button type="submit" class="cancel-btn">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+<%- include("partials/footer.ejs"); %>

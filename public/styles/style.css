@@ -1,0 +1,281 @@
+body {
+    background-color: #15192C;
+}
+
+.red {
+    color: rgb(242, 77, 65);
+}
+
+.white {
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.post-form {
+    width: 40vw;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.post-message {
+    background-color: #2C3249;
+    caret-color: white;
+    color: white;
+    width: 100%;
+    border: none;
+    height: 30px;
+    padding: 0;
+}
+
+.post {
+    background-color: #2C3249;
+    border-radius: 10px;
+    width: 40vw;
+    margin: 20px auto;
+    padding: 15px 10px 40px 10px;
+    min-height: 127px;
+    position: relative;
+    color: white;
+}
+
+.post:hover {
+    outline: #7950ED solid 1px;
+}
+
+.timestamp {
+    color: rgba(0, 0, 0, 0.467);
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+.timeline {
+    width: 45vw;
+    margin: auto;
+}
+
+.post-body {
+    width: 40vw;
+    height: 25vh;
+    background-color: #2C3249;
+    color: white;
+    caret-color: rgb(255, 255, 255);
+}
+
+.post-body:focus {
+    border: white solid 1px;
+}
+
+.submitPost {
+    background-color: #7950ED;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+}
+
+.submitPost:hover {
+    background-color: #724ade;
+}
+
+.post-header {
+    display: block;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.username {
+    border-radius: 5px;
+    border: rgba(175, 175, 175, 0.282) solid 1px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background-color: #2C3249;
+    caret-color: rgb(255, 255, 255);
+    color: white;
+    font-size: 15px;
+}
+
+.username_display {
+    color: #a484ff;
+    display: inline-block;
+}
+
+.post-icons {
+    height: 20px;
+    float: right;
+}
+
+.post-icons form {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.button-icon-edit {
+    background-image: url("/SVG/Edit.svg");
+    background-color: #22273c00;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.button-icon-trash {
+    background-image: url("/SVG/Trash.svg");
+    background-color: #22273c00;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.username:focus {
+    outline: none;
+    border: rgb(255, 255, 255) solid 1px;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.238);
+}
+
+@media (max-width: 768px) {
+    .post-form {
+        width: 80vw;
+    }
+    
+    .post-body {
+        width: 80vw;
+    }
+    
+    .post {
+        width: 80vw;
+        margin: 20px auto;
+    }
+
+    .timeline {
+        width: 80vw;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #724ade;
+    border-radius: 0px;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.save-btn {
+    background-color: #7950ED;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin: 0px 0px 0px 10px;
+}
+
+.save-btn:hover {
+    background-color: #724ade;
+}
+
+.cancel-btn {
+    background-color: #7950ED;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    float: right;
+}
+
+.cancel-btn:hover {
+    background-color: #724ade;
+}
+
+textarea.edit:hover {
+    cursor: text;
+}
+
+.confirmation-text {
+    text-align: center;
+    font-size: larger;
+}
+
+.cancel {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(19, 0, 24);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.cancel:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+.confirm {
+    background-color: #7950ED;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.confirm:hover {
+    background-color: #724ade;
+}
+
+.confirm-buttons {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 30px;
+}
