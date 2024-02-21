@@ -7,6 +7,42 @@ Developed for learning purposes, the Web Blog App is a project that combines var
   </a>
 </p>
 
+# How to run
+
+install all dependencies
+```bash
+npm i
+```
+
+run
+
+```bash
+node index.js
+```
+
+with nodemon
+
+```bash
+nodemon index.js
+```
+
+**Output**
+
+```bash
+Server listening on: http://localhost:5000
+```
+
+then, go to your web browser and paste the link or ctrl + click in the link.
+
+
+# Server configuration
+
+You can configure the server port by opening the index.js file and changing the variable 'PORT' (at line 8) to your desired value. In this case the variable 'PORT' is set to 5000.
+
+![image](https://github.com/Gustavo2022003/Web-Blog-App/assets/54781049/08759403-1f75-4954-8262-42ddbd280668)
+
+
+
 # Screenshots
 Deleting Post
 
