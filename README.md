@@ -8,3 +8,27 @@ Developed for learning purposes, the Web Blog App is a project that combines var
 </p>
 
 # Screenshots
+Deleting Post
+
+![](https://raw.githubusercontent.com/Gustavo2022003/Web-Blog-App/branch1/public/IMGS/1.png)
+
+Homepage
+
+![](https://github.com/Gustavo2022003/Web-Blog-App/blob/branch1/public/IMGS/2.png?raw=true)
+
+Writing post
+
+![](https://github.com/Gustavo2022003/Web-Blog-App/blob/branch1/public/IMGS/3.png?raw=true)
+
+Posting
+
+![](https://github.com/Gustavo2022003/Web-Blog-App/blob/branch1/public/IMGS/4.png?raw=true)
+
+Editing post
+
+![](https://github.com/Gustavo2022003/Web-Blog-App/blob/branch1/public/IMGS/5.png?raw=true)
+![](https://github.com/Gustavo2022003/Web-Blog-App/blob/branch1/public/IMGS/6.png?raw=true)
+
+Refreshing the updated post
+
+![](https://github.com/Gustavo2022003/Web-Blog-App/blob/branch1/public/IMGS/7.png?raw=true)
