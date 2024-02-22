@@ -7,6 +7,8 @@ Developed for learning purposes, the Web Blog App is a project that combines var
   </a>
 </p>
 
+[![CodeFactor](https://www.codefactor.io/repository/github/gustavo2022003/web-blog-app/badge)](https://www.codefactor.io/repository/github/gustavo2022003/web-blog-app)
+
 # How to run
 
 install all dependencies
